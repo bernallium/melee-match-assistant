@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Melee Match Assistant</string>
+
+    <!-- Player Names -->
+    <string name="player_a">Player A</string>
+    <string name="player_b">Player B</string>
+
+    <!-- Stage Names -->
+    <string name="battliefield">Battlefield</string>
+    <string name="yoshis_story">Yoshi\'s Story</string>
+    <string name="dream_land">Dream Land</string>
+    <string name="fountain_of_dreams">Fountain of Dreams</string>
+    <string name="final_destination">Final Destination</string>
+    <string name="pokemon_stadium">Pokemon Stadium</string>
+
+    <!-- Common words -->
+    <string name="game">Game</string>
+    <string name="best_of">Best of</string>
+
+    <!-- Step Titles -->
+    <string name="char_selection_step_title">Character Selection</string>
+    <string name="rock_paper_scissors_step_title">Rock Paper Scissors</string>
+    <string name="first_strike_port_selection_step_title">First Strike / Port Selection Priority</string>
+    <string name="stage_striking_step_title">Stage Striking</string>
+
+    <!-- Instructions -->
+    <string name="match_rules"><b>Game Settings</b>\n
+        • Stocks: 4\n
+        • Timer: 8 minutes\n
+        • Items: Off\n
+        • Pause: Off\n
+        • Handicap: Off\n
+        • Damage Ratio: 1.0\n
+        • Friendly Fire: On</string>
+    <string name="char_selection_step_instructions">Both players select their characters</string>
+    <string name="rock_paper_scissors_step_instructions">Select the winner of the RPS match</string>
+    <string name="first_strike_port_selection_step_instructions_rps_winner">may choose to have first stage strike or port selection priority</string>
+    <string name="first_strike_port_selection_step_instructions_rps_loser">will be granted the remaining option.</string>
+    <string name="stage_striking_step_instructions">Players take turns striking starter stages following the striking order, until one stage remains</string>
+    <string name="stage_striking_step_instructions_player_with_first_stage_strike">has first stage strike</string>
+    <string name="stage_striking_step_instructions_player_with_port_selection_priority">has port selection priority</string>
+    <string name="game_summary_instructions">Select the winner</string>
+    <string name="game_summary_port_selection_instructions">Players may request to RPS for port selection priority and/or use neutral ports</string>
+
+    <!-- GameSummaryActivity -->
+    <string name="in_progess">in progress</string>
+
+    <!-- StageSelectionActivity -->
+    <string name="start">Start</string>
+    <string name="bans_a_stage">bans a stage</string>
+    <string name="picks_a_remaining_stage">picks a remaining stage</string>
+    <string name="selects_their_character_first">selects their character first</string>
+    <string name="selects_their_character_second">selects their character second</string>
+
+    <!-- MatchSummaryActivity -->
+    <string name="finish">Finish</string>
+
+    <!-- Buttons -->
+    <string name="first_strike_button_string">First Strike</string>
+    <string name="port_selection_button_string">Port Selection Priority</string>
+    <string name="reset_string">Reset</string>
+
+    <!-- Action Bar Titles -->
+    <string name="stage_selection_string">stage selection</string>
+
+    <!-- Additional Information Dialogs -->
+    <string name="stage_selection_alert_dialog_title">Stage selection rules</string>
+    <string name="stage_selection_alert_dialog_body">The winner of the previous game bans a stage first (except in a best of 5) and
+        then the loser picks a remaining stage. In a best of 5, players do not ban stages (i.e. the loser simply picks a stage).
+        If any player wishes to switch characters, the winner picks their character first allowing the loser to counter pick with their
+        character choice afterwards.</string>
+    <string name="game_summary_alert_dialog_title">Port selection rules</string>
+    <string name="game_summary_alert_dialog_body">Each game, players may choose a different controller port. If players
+        cannot agree on who gets to use which port, then the player with <i>port selection priority</i> chooses first. Port selection priority is decided via RPS, except in Game 1, where it is
+        automatically granted to the player who did not get first stage strike).
+        \n
+        \nEach game, players may also request for the use of <i>neutral ports</i> only.
+        If both port selection priority and neutral ports are invoked,
+        then the player with port selection priority chooses a neutral port first and the other players uses the remaining neutral port.</string>
+</resources>

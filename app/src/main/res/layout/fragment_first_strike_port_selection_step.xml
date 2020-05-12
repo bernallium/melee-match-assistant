@@ -1,0 +1,45 @@
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.meleematchassistant.Fragments.FirstStrikePortSelectionStepFragment">
+
+    <TextView
+        android:id="@+id/first_strike_port_selection_step_instructions_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_padding_size_small"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/first_strike_port_selection_step_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/first_strike_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:text="@string/first_strike_button_string"
+                android:textColor="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/port_selection_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:text="@string/port_selection_button_string"
+                android:textColor="#FFFFFF"/>
+
+        </RadioGroup>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

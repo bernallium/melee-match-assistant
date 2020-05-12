@@ -1,0 +1,48 @@
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.meleematchassistant.Fragments.FirstStrikePortSelectionStepFragment">
+
+    <TextView
+        android:id="@+id/rock_step_instructions_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_padding_size_small"
+        android:text="@string/rock_paper_scissors_step_instructions"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:id="@+id/rock_paper_scissors_step_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/player_a_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:text="@string/player_a"
+                android:textColor="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/player_b_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:text="@string/player_b"
+                android:textColor="#FFFFFF"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

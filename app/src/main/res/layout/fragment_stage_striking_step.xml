@@ -1,0 +1,35 @@
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.meleematchassistant.Fragments.FirstStrikePortSelectionStepFragment">
+
+    <TextView
+        android:id="@+id/stage_striking_step_instructions_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_padding_size_medium"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/stage_striking_step_striking_order_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_padding_size_medium"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/stage_striking_grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:columnCount="2"
+        app:rowCount="3"
+        app:useDefaultMargins="true">
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ernestoyaquello.com.verticalstepperform.VerticalStepperFormLayout
+        android:animateLayoutChanges="true"
+        android:id="@+id/vertical_stepper_form"
+        android:layout_width="match_parent"
+        android:layout_below="@id/app_bar_layout"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        tools:context="com.example.android.meleematchassistant.Activities.MainActivity">
+
+    </ernestoyaquello.com.verticalstepperform.VerticalStepperFormLayout>
+
+</RelativeLayout>

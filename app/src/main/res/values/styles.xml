@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlHighlight">#80FFFFFF</item>
+        <item name="colorControlNormal">#E0E0E0</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/windowBackground</item>"
+    </style>
+
+    <!-- Confirmation Button style -->
+    <style name="LargeBottomButton">
+        <item name="android:backgroundTint">@color/confirmationButtonColor</item>
+        <item name="android:paddingBottom">@dimen/margin_padding_size_medium</item>
+        <item name="android:paddingTop">@dimen/margin_padding_size_medium</item>
+        <item name="android:textColor">@color/confirmationButtonTextColor</item>
+    </style>
+
+    <style name="AlertDialogCustom">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/windowBackground</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   color for the app bar and other primary UI elements -->
+    <color name="colorPrimary">#0d47a1</color> <!-- A.#303F9F, B.#3F51B5 -->
+    <!--   a darker variant of the primary color, used for the status bar (on Android 5.0+) and contextual app bars -->
+    <color name="colorPrimaryDark">#002171</color> <!-- A.#273380, B.#324191 -->
+    <!--   a secondary color for controls like checkboxes and text fields -->
+    <color name="colorAccent">#FFC400</color>
+
+    <!-- Colour overlay for when a stage is striked (70% transparency) Old color #B3F44336 -->
+    <color name="stageStrikeColorOverlay">#B3BE5D4B</color> <!-- #B3BE5D4B -->
+
+    <color name="windowBackground">#24282E</color> <!-- #1A1D22, #24282E -->
+    <color name="darkCardBackground">#1A1D22</color>
+    <color name="stepTitleTextColor">#FFFFFF</color>
+    <color name="confirmationButtonColor">#69F0AE</color> <!-- #00E676, #69F0AE, #63FFA4, #319A6B -->
+    <color name="confirmationButtonTextColor">#2A6046</color> <!-- #2A6046, @android:color/white -->
+    <color name="playerATextColor">#FF8A80</color> <!-- #FF5252 -->
+    <color name="playerBTextColor">#8C9EFF</color> <!-- #536DFE -->
+</resources>
